@@ -1,0 +1,79 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grpWhiskey" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/itemWhiskey"
+            android:title="@string/category_whiskey"
+            android:icon="@drawable/ic_glass_whiskey"/>
+    </group>
+
+    <group android:id="@+id/grpVodka" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/itemVodka"
+            android:title="@string/category_vodka"
+            android:icon="@drawable/ic_glass_vodka"/>
+    </group>
+
+    <group android:id="@+id/grpWine" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/itemWine"
+            android:title="@string/category_wine"
+            android:icon="@drawable/ic_glass_wine"/>
+    </group>
+
+    <group android:id="@+id/grpRum" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/itemRum"
+            android:title="@string/category_rum"
+            android:icon="@drawable/ic_shot_rum"/>
+    </group>
+
+    <group android:id="@+id/grpChampagne" android:checkableBehavior="single">
+        <item
+            android:id="@+id/itemChampagne"
+            android:title="@string/category_champagne"
+            android:icon="@drawable/ic_champagne"/>
+    </group>
+
+    <group android:id="@+id/grpGin" android:checkableBehavior="single">
+        <item
+            android:id="@+id/itemGin"
+            android:title="@string/category_gin"
+            android:icon="@drawable/ic_glass_gin"/>
+    </group>
+
+    <group android:id="@+id/grpTequila" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/itemTequila"
+            android:title="@string/category_tequila"
+            android:icon="@drawable/ic_shot_tequila"/>
+    </group>
+
+    <group android:id="@+id/grpBrandy" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/itemBrandy"
+            android:title="@string/category_brandy"
+            android:icon="@drawable/ic_glass_brandy"/>
+    </group>
+
+    <group android:id="@+id/grpBeer" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/itemBeer"
+            android:title="@string/category_beer"
+            android:icon="@drawable/ic_beer"/>
+    </group>
+
+    <group android:id="@+id/grpLiver" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/itemLiver"
+            android:title="@string/category_liver"
+            android:icon="@drawable/ic_liver"/>
+    </group>
+
+    <group android:id="@+id/grpSleep" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/itemSleep"
+            android:title="@string/category_sleep"
+            android:icon="@drawable/ic_sleep"/>
+    </group>
+</menu>

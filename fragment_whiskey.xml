@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/frame_container2"
+    tools:context="com.android.nohiccupsbeta.WhiskeyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/frag_whiskey_skin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:textSize="16sp"  />
+
+    <ImageButton
+        android:id="@+id/expand_collapse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_expand_more"
+        android:padding="16dp"/>
+
+</FrameLayout>
